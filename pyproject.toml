@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools >= 61.2.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spring_time"
+description = "Clustering and triggering for MeerTRAP post-processing"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENCE"}
+authors = [
+  {name = "Mateusz Malenta"},
+  {email = "mateusz.malenta@gmail.com"}
+]
+keywords = [
+  "clustering",
+]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Scientific/Engineering :: Astronomy"
+]
+
+dynamic = ["version"]
+
+[project.urls]
+repository = "https://github.com/mmalenta/spring_time"
+
